@@ -1,10 +1,13 @@
+
+import org.junit.jupiter.api.Test;
+
 import java.util.Arrays;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class LeetSolutionsEasyTest {
 
-    @org.junit.jupiter.api.Test
+    @Test
     void runningSumTest() {
         int[] input = {1,2,3,4,5};
         LeetSolutionsEasy leetSolutionsEasy = new LeetSolutionsEasy();
@@ -22,7 +25,7 @@ class LeetSolutionsEasyTest {
         assertEquals(Arrays.toString(expected2), Arrays.toString(output2));
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void runningSum2Test() {
         int[] input = {1,2,3,4,5};
 
@@ -34,7 +37,7 @@ class LeetSolutionsEasyTest {
         assertEquals(Arrays.toString(expected), Arrays.toString(output));
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void richestCustomerWealthTest() {
         int[][] accounts = {{1,2,3},{3,2,1}};
 
