@@ -18,7 +18,7 @@ sourceSets {
 dependencies {
     //implementation 'org.testng:testng:7.1.0'
     implementation 'org.junit.jupiter:junit-jupiter:5.8.1'
-    implementation("com.google.guava:guava:24.0-jre")
+    implementation('com.google.guava:guava:31.1-jre')
 }
 
 test {

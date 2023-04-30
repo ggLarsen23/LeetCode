@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 class LeetSolutionsEasyTest {
 
@@ -72,5 +72,17 @@ class LeetSolutionsEasyTest {
         System.out.println("Actual output: " + numberOfStepsToZero);
         int expected = 6;
         assertEquals(expected, numberOfStepsToZero);
+    }
+
+    @org.junit.jupiter.api.Test
+    void isPalindromeNumberTest() {
+        int input = 121;
+        LeetSolutionsEasy leetSolutionsEasy = new LeetSolutionsEasy();
+        boolean isPalindrome = leetSolutionsEasy.isPalindromeNumber(input);
+        assertTrue(isPalindrome);
+
+        int input2 = 123;
+        boolean isPalindrome2 = leetSolutionsEasy.isPalindromeNumber(input2);
+        assertFalse(isPalindrome2);
     }
 }

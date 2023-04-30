@@ -3,6 +3,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.lang.Object;
 import java.util.LinkedList;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class LeetSolutionsEasy {
 
@@ -97,12 +99,20 @@ public class LeetSolutionsEasy {
         return numberOfSteps;
     }
 
-    //public boolean randomseNote(String ransomeNote, String magazine) {
-    //    HashMap<String, Integer> letterMap = new HashMap<>();
+    //Is palindrome number
+    public boolean isPalindromeNumber(int x) {
+        String integerString = Integer.toString(x);
 
-        //for (String : ransomeNote) {
+        List<Character> charList = IntStream.range(0, integerString.length())
+                .mapToObj(integerString::charAt)
+                .collect(Collectors.toList());
 
-        //}
-     //   return letterMap;
-    //}
+        List<Character> backwardsList = new ArrayList<>();
+
+        for (int i = charList.size() - 1; i >= 0; i--) {
+                backwardsList.add(charList.get(i));
+        }
+
+        return charList.equals(backwardsList);
+    }
 }
