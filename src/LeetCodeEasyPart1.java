@@ -1,12 +1,9 @@
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.lang.Object;
-import java.util.LinkedList;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class LeetSolutionsEasy {
+public class LeetCodeEasyPart1 {
 
     /** Running sum in a nested Loop BigO = O(N^2) */
     public int[] runningSum(int[] nums) {
@@ -99,7 +96,7 @@ public class LeetSolutionsEasy {
         return numberOfSteps;
     }
 
-    //Is palindrome number
+    /**Is palindrome number, with convert to string */
     public boolean isPalindromeNumber(int x) {
         String integerString = Integer.toString(x);
 
