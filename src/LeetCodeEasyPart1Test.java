@@ -85,4 +85,30 @@ class LeetCodeEasyPart1Test {
         boolean isPalindrome2 = leetCodeEasyPart1.isPalindromeNumber(input2);
         assertFalse(isPalindrome2);
     }
+
+    @Test
+    void containsDuplicate() {
+        int[] input1 = new int[]{1,2,3,4,5};
+        LeetCodeEasyPart1 leetCodeEasyPart1 = new LeetCodeEasyPart1();
+        boolean isDuplicate = leetCodeEasyPart1.containsDuplicate(input1);
+        assertFalse(isDuplicate);
+
+        int[] input2 = new int[]{1,2,3,2,5};
+        boolean isDuplicate2 = leetCodeEasyPart1.containsDuplicate(input2);
+        assertTrue(isDuplicate2);
+    }
+
+    @Test
+    void isAnagram() {
+//        String input1 = "cata";
+//        String input2 = "aact";
+        LeetCodeEasyPart1 leetCodeEasyPart1 = new LeetCodeEasyPart1();
+//        boolean isDuplicate = leetCodeEasyPart1.isAnagram(input1, input2);
+//        assertTrue(isDuplicate);
+
+        String input12 = "helloa";
+        String input22 = "aollleh";
+        boolean isDuplicate2 = leetCodeEasyPart1.isAnagram(input12, input22);
+        assertFalse(isDuplicate2);
+    }
 }
