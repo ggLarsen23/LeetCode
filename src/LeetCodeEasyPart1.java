@@ -117,7 +117,9 @@ public class LeetCodeEasyPart1 {
         return charList.equals(backwardsList);
     }
 
-    /** Containts Duplicate LeetCode, O(log(n)*/
+    /**
+     * Containts Duplicate LeetCode, O(log(n)
+     * */
     public boolean containsDuplicate(int[] nums) {
 
         Arrays.sort(nums);
@@ -129,6 +131,9 @@ public class LeetCodeEasyPart1 {
         return false;
     }
 
+    /**
+     * isAnagram Leetcode, O(n)
+     */
     public boolean isAnagram(String s, String t) {
 
         HashMap<Character, Integer> word = new HashMap<>(26);

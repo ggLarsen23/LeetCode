@@ -100,11 +100,11 @@ class LeetCodeEasyPart1Test {
 
     @Test
     void isAnagram() {
-//        String input1 = "cata";
-//        String input2 = "aact";
+        String input1 = "cata";
+        String input2 = "aact";
         LeetCodeEasyPart1 leetCodeEasyPart1 = new LeetCodeEasyPart1();
-//        boolean isDuplicate = leetCodeEasyPart1.isAnagram(input1, input2);
-//        assertTrue(isDuplicate);
+        boolean isDuplicate = leetCodeEasyPart1.isAnagram(input1, input2);
+        assertTrue(isDuplicate);
 
         String input12 = "helloa";
         String input22 = "aollleh";

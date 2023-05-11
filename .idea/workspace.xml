@@ -136,7 +136,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LeetCodeEasyPart1Test.isAnagram">
+  <component name="RunManager" selected="JUnit.LeetCodeEasyPart1Test">
     <configuration name="LeetCode [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -179,6 +179,15 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="LeetCodeEasyPart1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode.Main" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LeetCodeEasyPart1Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LeetCodeEasyPart1Test.containsDuplicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode.Main" />
       <option name="PACKAGE_NAME" value="" />
@@ -199,23 +208,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCodeMediumPart1Test.intToRomanTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode.Main" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LeetCodeMediumPart1Test" />
-      <option name="METHOD_NAME" value="intToRomanTest2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LeetCodeEasyPart1Test" />
         <item itemvalue="JUnit.LeetCodeEasyPart1Test.isAnagram" />
         <item itemvalue="JUnit.LeetCodeEasyPart1Test.containsDuplicate" />
         <item itemvalue="Gradle.LeetCode [build]" />
         <item itemvalue="Gradle.LeetCode [clean]" />
-        <item itemvalue="JUnit.LeetCodeMediumPart1Test.intToRomanTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +249,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LeetCodeEasyPart1.java</url>
-          <line>122</line>
+          <line>124</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
