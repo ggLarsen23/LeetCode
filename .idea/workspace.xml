@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f48a36f-e699-4809-8dbf-ed7f22e38166" name="Changes" comment="//">
+      <change afterPath="$PROJECT_DIR$/src/NeetCode_ArraysAndHashing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NeetCode_ArraysAndHashingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/src/LeetCode.Main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/src/LeetCode.Main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCodeEasyPart1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCodeEasyPart1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCodeEasyPart1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCodeEasyPart1Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,9 +84,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -136,49 +137,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LeetCodeEasyPart1Test">
-    <configuration name="LeetCode [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="LeetCode [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.NeetCode_ArraysAndHashingTest.topKFrequent">
     <configuration name="LeetCodeEasyPart1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode.Main" />
       <option name="PACKAGE_NAME" value="" />
@@ -208,13 +167,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NeetCode_ArraysAndHashingTest.groupAnagrams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode.Main" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NeetCode_ArraysAndHashingTest" />
+      <option name="METHOD_NAME" value="groupAnagrams" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NeetCode_ArraysAndHashingTest.topKFrequent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode.Main" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NeetCode_ArraysAndHashingTest" />
+      <option name="METHOD_NAME" value="topKFrequent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NeetCode_ArraysAndHashingTest.topKFrequent" />
+        <item itemvalue="JUnit.NeetCode_ArraysAndHashingTest.groupAnagrams" />
         <item itemvalue="JUnit.LeetCodeEasyPart1Test" />
         <item itemvalue="JUnit.LeetCodeEasyPart1Test.isAnagram" />
         <item itemvalue="JUnit.LeetCodeEasyPart1Test.containsDuplicate" />
-        <item itemvalue="Gradle.LeetCode [build]" />
-        <item itemvalue="Gradle.LeetCode [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -251,6 +230,11 @@
           <url>file://$PROJECT_DIR$/src/LeetCodeEasyPart1.java</url>
           <line>124</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NeetCode_ArraysAndHashingTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
