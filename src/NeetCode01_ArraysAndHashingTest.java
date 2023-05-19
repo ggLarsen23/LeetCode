@@ -6,7 +6,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class NeetCode_ArraysAndHashingTest {
+class NeetCode01_ArraysAndHashingTest {
 
     @Test
     void groupAnagrams() {
@@ -16,7 +16,7 @@ class NeetCode_ArraysAndHashingTest {
         expected.add(Arrays.asList("bat"));
         expected.add(Arrays.asList("tan","nat"));
 
-        NeetCode_ArraysAndHashing neetCodeArraysAndHashing = new NeetCode_ArraysAndHashing();
+        NeetCode01_ArraysAndHashing neetCodeArraysAndHashing = new NeetCode01_ArraysAndHashing();
 
         List<List<String>> output = neetCodeArraysAndHashing.groupAnagrams(strs);
         assertEquals(expected, output);
@@ -27,7 +27,7 @@ class NeetCode_ArraysAndHashingTest {
         int[] inputArray = new int[]{1,1,1,2,2,3};
         int inputK = 2;
 
-        NeetCode_ArraysAndHashing neetCodeArraysAndHashing = new NeetCode_ArraysAndHashing();
+        NeetCode01_ArraysAndHashing neetCodeArraysAndHashing = new NeetCode01_ArraysAndHashing();
 
         int[] output = neetCodeArraysAndHashing.topKFrequent(inputArray, inputK);
         assertTrue(Arrays.equals(new int[]{1,2}, output));

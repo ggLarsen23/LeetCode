@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f48a36f-e699-4809-8dbf-ed7f22e38166" name="Changes" comment="//">
-      <change afterPath="$PROJECT_DIR$/src/NeetCode_ArraysAndHashing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NeetCode_ArraysAndHashingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/src/LeetCode.Main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/src/LeetCode.Main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FNZTechnicalInterview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NeetCode02_TwoPointers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NeetCode02_TwoPointersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NeetCode06_LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NeetCode_ArraysAndHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeetCode01_ArraysAndHashing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NeetCode_ArraysAndHashingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeetCode01_ArraysAndHashingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,8 +88,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
+        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -137,22 +141,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NeetCode_ArraysAndHashingTest.topKFrequent">
+  <component name="RunManager" selected="JUnit.NeetCode02_TwoPointersTest.isPalindrome">
     <configuration name="LeetCodeEasyPart1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode.Main" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LeetCodeEasyPart1Test" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCodeEasyPart1Test.containsDuplicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode.Main" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LeetCodeEasyPart1Test" />
-      <option name="METHOD_NAME" value="containsDuplicate" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,21 +161,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NeetCode_ArraysAndHashingTest.groupAnagrams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NeetCode01_ArraysAndHashingTest.groupAnagrams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode.Main" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NeetCode_ArraysAndHashingTest" />
+      <option name="MAIN_CLASS_NAME" value="NeetCode01_ArraysAndHashingTest" />
       <option name="METHOD_NAME" value="groupAnagrams" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NeetCode_ArraysAndHashingTest.topKFrequent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NeetCode01_ArraysAndHashingTest.topKFrequent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode.Main" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NeetCode_ArraysAndHashingTest" />
+      <option name="MAIN_CLASS_NAME" value="NeetCode01_ArraysAndHashingTest" />
       <option name="METHOD_NAME" value="topKFrequent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NeetCode02_TwoPointersTest.isPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode.Main" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NeetCode02_TwoPointersTest" />
+      <option name="METHOD_NAME" value="isPalindrome" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -189,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NeetCode_ArraysAndHashingTest.topKFrequent" />
-        <item itemvalue="JUnit.NeetCode_ArraysAndHashingTest.groupAnagrams" />
+        <item itemvalue="JUnit.NeetCode02_TwoPointersTest.isPalindrome" />
+        <item itemvalue="JUnit.NeetCode01_ArraysAndHashingTest.topKFrequent" />
+        <item itemvalue="JUnit.NeetCode01_ArraysAndHashingTest.groupAnagrams" />
         <item itemvalue="JUnit.LeetCodeEasyPart1Test" />
         <item itemvalue="JUnit.LeetCodeEasyPart1Test.isAnagram" />
-        <item itemvalue="JUnit.LeetCodeEasyPart1Test.containsDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +236,7 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/NeetCode_ArraysAndHashingTest.java</url>
+          <url>file://$PROJECT_DIR$/src/NeetCode01_ArraysAndHashingTest.java</url>
           <line>20</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>

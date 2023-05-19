@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class NeetCode_ArraysAndHashing {
+public class NeetCode01_ArraysAndHashing {
 
     /** O(n*k log(k)) */
     public List<List<String>> groupAnagrams(String[] strs) {
@@ -24,7 +24,7 @@ public class NeetCode_ArraysAndHashing {
         return new ArrayList<>(groups.values());
     }
 
-    /** O(n log(m)) */
+    /** O(n * m log(m)) */
     public int[] topKFrequent(int[] nums, int k) {
 
         int[] numsArray = new int[k];
@@ -36,12 +36,29 @@ public class NeetCode_ArraysAndHashing {
 
         List<Map.Entry<Integer, Integer>> mapList = new ArrayList<>(numsMap.entrySet());
 
-        Collections.sort(mapList, (a,b) -> (b.getValue() - a.getValue()));
+        mapList.sort((a, b) -> (b.getValue() - a.getValue()));
 
         for(int i = 0; i < k; i++) {
             numsArray[i] = mapList.get(i).getKey();
         }
 
         return numsArray;
+    }
+
+    /** 238. Product of Array Except Self, O(n^2) */
+     public int[] productExceptSelf(int[] nums) {
+
+        int[] ans = new int[nums.length];
+
+        for (int i = 0; i < nums.length; i++) {
+            int product = 1;
+            for (int j = 0; j < nums.length; j++) {
+                if(i != j) {
+                    product *= nums[j];
+                }
+            }
+            ans[i] = product;
+        }
+        return ans;
     }
 }
