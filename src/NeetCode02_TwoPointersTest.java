@@ -32,4 +32,10 @@ class NeetCode02_TwoPointersTest {
 
         System.out.println("All tests are Bueno");
     }
+
+    @Test
+    void twosumTest() {
+        int[] output = NeetCode02_TwoPointers.twoSum(new int[]{2, 7, 11, 15}, 9);
+        assertTrue(Arrays.equals(output, new int[]{1, 2}));
+    }
 }

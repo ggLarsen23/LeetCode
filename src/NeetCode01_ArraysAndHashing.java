@@ -2,7 +2,7 @@ import java.util.*;
 
 public class NeetCode01_ArraysAndHashing {
 
-    /** O(n*k log(k)) */
+    /** 49. Group Anagrams, O(n*k log(k)) */
     public List<List<String>> groupAnagrams(String[] strs) {
 
         HashMap<String, List<String>> groups = new HashMap<>();
@@ -24,7 +24,7 @@ public class NeetCode01_ArraysAndHashing {
         return new ArrayList<>(groups.values());
     }
 
-    /** O(n * m log(m)) */
+    /** 347. Top K Frequent Elements, O(n * m log(m)) */
     public int[] topKFrequent(int[] nums, int k) {
 
         int[] numsArray = new int[k];
@@ -58,6 +58,28 @@ public class NeetCode01_ArraysAndHashing {
                 }
             }
             ans[i] = product;
+        }
+        return ans;
+    }
+
+    /** 238. Product of Array Except Self, O(n) */
+    public int[] productExceptSelf2(int[] nums) {
+        int n = nums.length;
+        int[] prefix = new int[n];
+        int[] suffix = new int[n];
+        prefix[0] = 1;
+        suffix[n - 1] = 1;
+
+        for(int i = 1; i < n; i++) {
+            prefix[i] = prefix[i - 1] * nums[i - 1];
+        }
+        for(int i = n - 2; i >= 0; i--) {
+            suffix[i] = suffix[i + 1] * nums[i + 1];
+        }
+
+        int[] ans = new int[n];
+        for(int i = 0; i < n; i++) {
+            ans[i] = prefix[i] * suffix[i];
         }
         return ans;
     }

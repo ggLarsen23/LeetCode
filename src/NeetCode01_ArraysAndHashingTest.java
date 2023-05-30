@@ -38,4 +38,16 @@ class NeetCode01_ArraysAndHashingTest {
         int[] output2 = neetCodeArraysAndHashing.topKFrequent(inputArray2, inputK2);
         assertTrue(Arrays.equals(new int[]{1,3,6}, output2));
     }
+
+    @Test
+    void productExceptSelfTest() {
+        int[] inputArray = new int[]{1,2,3,4};
+
+        NeetCode01_ArraysAndHashing neetCode01ArraysAndHashing = new NeetCode01_ArraysAndHashing();
+
+        int[] output = neetCode01ArraysAndHashing.productExceptSelf2(inputArray);
+
+        int[] expected = new int[]{24,12,8,6};
+        assertTrue(Arrays.equals(expected, output));
+    }
 }

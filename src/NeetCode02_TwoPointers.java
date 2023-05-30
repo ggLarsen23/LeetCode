@@ -27,4 +27,54 @@ public class NeetCode02_TwoPointers {
         }
         return Arrays.equals(charArray, inverseArray);
     }
+
+    /** 167. Two Sum II - Input Array Is Sorted, 0(n^2) */
+    public static int[] twoSum(int[] numbers, int target) {
+
+        int[] result = new int[2];
+
+        for (int i = 0; i <= numbers.length; i++) {
+
+            for (int j = i + 1; j <= numbers.length - 1; j++) {
+
+                if(Math.addExact(numbers[i], numbers[j]) == target) {
+
+                    result[0] = i+1;
+                    result[1] = j+1;
+                    return result;
+                }
+            }
+        }
+        return null;
+    }
+
+    /** 167. Two Sum II - Input Array Is Sorted, 0(n) */
+    public static int[] twoSum2(int[] numbers, int target) {
+
+        int[] result = new int[2];
+
+        int i = 0;
+        int j = numbers.length - 1;
+        int left, right;
+
+        while (i < j) {
+            left = numbers[i];
+            right = numbers[j];
+            if(left + right == target)  {break;}
+        }
+
+//        for (int i = 0; i <= numbers.length; i++) {
+//
+//            for (int j = i + 1; j <= numbers.length - 1; j++) {
+//
+//                if(Math.addExact(numbers[i], numbers[j]) == target) {
+//
+//                    result[0] = i+1;
+//                    result[1] = j+1;
+//                    return result;
+//                }
+//            }
+//        }
+        return null;
+    }
 }
