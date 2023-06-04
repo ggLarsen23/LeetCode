@@ -1,5 +1,6 @@
 import java.sql.Array;
 import java.util.Arrays;
+import java.util.HashMap;
 
 public class NeetCode02_TwoPointers {
 
@@ -76,5 +77,20 @@ public class NeetCode02_TwoPointers {
 //            }
 //        }
         return null;
+    }
+
+    /** 167. Two Sum II - Input Array Is Sorted, solve it with a Hashmap O(n) */
+
+    public static int[] twoSumSorted(int[] numbers, int target) {
+        int n = numbers.length;
+        HashMap<Integer, Integer> trackMap = new HashMap<>();
+
+        for (int i = 0; i < n; i++) {
+            if (trackMap.containsKey(target - numbers[i])) {
+                return new int[]{trackMap.get(target - numbers[i]), i+1};
+            }
+            trackMap.putIfAbsent(numbers[i], i+1);
+        }
+       return new int[]{0};
     }
 }
