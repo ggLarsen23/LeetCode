@@ -38,4 +38,10 @@ class NeetCode02_TwoPointersTest {
         int[] output = NeetCode02_TwoPointers.twoSum(new int[]{2, 7, 11, 15}, 9);
         assertTrue(Arrays.equals(output, new int[]{1, 2}));
     }
+
+    @Test
+    void twoSumSorted2() {
+        int[] output = NeetCode02_TwoPointers.twoSum2(new int[]{2, 7, 11, 15}, 9);
+        assertTrue(Arrays.equals(output, new int[]{1, 2}));
+    }
 }
