@@ -29,7 +29,23 @@ public class NeetCode02_TwoPointers {
         return Arrays.equals(charArray, inverseArray);
     }
 
-    /** 167. Two Sum II - Input Array Is Sorted, 0(n^2) */
+    /** 1. Two Sum - O(n) */
+    public static int[] twoSumFirst(int[] numbers, int target) {
+       int[] result = new int[2];
+       HashMap<Integer, Integer> map = new HashMap<>();
+
+       for (int i = 0; i < numbers.length; i ++) {
+           if (map.containsKey(target - numbers[i])) {
+              result[1] = i;
+              result[0] = map.get(target - numbers[i]);
+              return result;
+           }
+           map.put(numbers[i], i);
+       }
+       return new int[]{-1, -1};
+    }
+
+     /** 167. Two Sum II - Input Array Is Sorted, 0(n^2) */
     public static int[] twoSum(int[] numbers, int target) {
 
         int[] result = new int[2];
