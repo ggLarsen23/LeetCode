@@ -113,4 +113,23 @@ public class NeetCode02_TwoPointers {
         }
         return new int[] {-1, -1};
     }
+
+    public int[] twoSumSorted3(int[] numbers, int target) {
+        int lenght = numbers.length;
+        int leftPointer = 0;
+        int rightPointer = lenght;
+
+        while(leftPointer < rightPointer) {
+            if((numbers[leftPointer] + numbers[rightPointer]) < target) {
+                leftPointer++;
+            }
+            else if((numbers[leftPointer] + numbers[rightPointer]) > target) {
+                rightPointer--;
+            }
+            else if((numbers[leftPointer] + numbers[rightPointer]) == target) {
+              return new int[]{leftPointer, rightPointer};
+            }
+        }
+        return null;
+    }
 }
