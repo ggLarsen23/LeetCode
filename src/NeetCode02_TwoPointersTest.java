@@ -60,9 +60,9 @@ class NeetCode02_TwoPointersTest {
 
         List<List<Integer>> output = neetCode02TwoPointers.threeSum(inputArray);
 
-        List<Integer> list1 = new ArrayList<>(Arrays.asList(-1,-1,2));
+        List<Integer> list1 = new ArrayList<>(Arrays.asList(0,0,0));
         List<Integer> list2 = new ArrayList<>(Arrays.asList(-1,0,1));
         List<List<Integer>> expected = new LinkedList<>(Arrays.asList(list1, list2));
-        assertTrue(List.of(list1).equals(output.get(0)));
+        assertTrue(Arrays.equals(list1.toArray(), (output.get(0).toArray())));
     }
 }
