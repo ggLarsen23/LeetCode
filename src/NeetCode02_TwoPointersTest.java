@@ -1,6 +1,8 @@
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -47,7 +49,20 @@ class NeetCode02_TwoPointersTest {
 
     @Test
     void twoSumSorted2() {
-        int[] output = NeetCode02_TwoPointers.twoSum2(new int[]{2, 7, 11, 15}, 9);
+        int[] output = NeetCode02_TwoPointers.twoSumSorted2(new int[]{2, 7, 11, 15}, 9);
         assertTrue(Arrays.equals(output, new int[]{1, 2}));
+    }
+    @Test
+    void threeSumTest() {
+        int[] inputArray = new int[]{0,0,0};
+
+        NeetCode02_TwoPointers neetCode02TwoPointers = new NeetCode02_TwoPointers();
+
+        List<List<Integer>> output = neetCode02TwoPointers.threeSum(inputArray);
+
+        List<Integer> list1 = new ArrayList<>(Arrays.asList(-1,-1,2));
+        List<Integer> list2 = new ArrayList<>(Arrays.asList(-1,0,1));
+        List<List<Integer>> expected = new LinkedList<>(Arrays.asList(list1, list2));
+        assertTrue(List.of(list1).equals(output.get(0)));
     }
 }
