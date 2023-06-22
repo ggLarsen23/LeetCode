@@ -62,7 +62,7 @@ public class NeetCode04_BinarySearch {
                 right = midY - 1;
             }
         }
-        if (correctRow != -1 && correctColumn != -1) {
+        if (correctColumn != -1) {
             return true;
         } else return false;
     }
