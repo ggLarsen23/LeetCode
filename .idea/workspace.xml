@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f48a36f-e699-4809-8dbf-ed7f22e38166" name="Changes" comment="//">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NeetCode02_TwoPointers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeetCode02_TwoPointers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NeetCode01_ArraysAndHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeetCode01_ArraysAndHashing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NeetCode01_ArraysAndHashingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeetCode01_ArraysAndHashingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NeetCode04_BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeetCode04_BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NeetCode04_BinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeetCode04_BinarySearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,10 +88,13 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -116,11 +123,16 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;13&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/av_la/Documents/GitHub/LeetCode/src/test&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/av_la/Documents/GitHub/AssemblyAPIProject&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.maddyhome.idea.vim.ui.VimEmulationConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -143,33 +155,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NeetCode02_TwoPointersTest.twoSumSorted2">
-    <configuration name="LeetCode [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="NeetCode01_ArraysAndHashingTest.productExceptSelfTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.NeetCode04_BinarySearchTest.minEatingSpeed">
+    <configuration name="NeetCode02_TwoPointersTest.threeSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode.Main" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NeetCode01_ArraysAndHashingTest" />
-      <option name="METHOD_NAME" value="productExceptSelfTest" />
+      <option name="MAIN_CLASS_NAME" value="NeetCode02_TwoPointersTest" />
+      <option name="METHOD_NAME" value="threeSumTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -185,21 +176,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NeetCode02_TwoPointersTest.twosumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NeetCode04_BinarySearchTest.binarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode.Main" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NeetCode02_TwoPointersTest" />
-      <option name="METHOD_NAME" value="twosumTest" />
+      <option name="MAIN_CLASS_NAME" value="NeetCode04_BinarySearchTest" />
+      <option name="METHOD_NAME" value="binarySearch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NeetCode03_StackTest.isValidTestStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NeetCode04_BinarySearchTest.minEatingSpeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode.Main" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NeetCode03_StackTest" />
-      <option name="METHOD_NAME" value="isValidTestStack" />
+      <option name="MAIN_CLASS_NAME" value="NeetCode04_BinarySearchTest" />
+      <option name="METHOD_NAME" value="minEatingSpeed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NeetCode04_BinarySearchTest.searchMatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode.Main" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NeetCode04_BinarySearchTest" />
+      <option name="METHOD_NAME" value="searchMatrixTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -207,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NeetCode04_BinarySearchTest.minEatingSpeed" />
+        <item itemvalue="JUnit.NeetCode04_BinarySearchTest.searchMatrixTest" />
+        <item itemvalue="JUnit.NeetCode04_BinarySearchTest.binarySearch" />
+        <item itemvalue="JUnit.NeetCode02_TwoPointersTest.threeSumTest" />
         <item itemvalue="JUnit.NeetCode02_TwoPointersTest.twoSumSorted2" />
-        <item itemvalue="JUnit.NeetCode03_StackTest.isValidTestStack" />
-        <item itemvalue="JUnit.NeetCode02_TwoPointersTest.twosumTest" />
-        <item itemvalue="JUnit.NeetCode01_ArraysAndHashingTest.productExceptSelfTest" />
-        <item itemvalue="Gradle.LeetCode [test]" />
       </list>
     </recent_temporary>
   </component>
@@ -225,6 +226,17 @@
       <updated>1679402709937</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="//" />
@@ -254,19 +266,44 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/NeetCode01_ArraysAndHashing.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/NeetCode02_TwoPointers.java</url>
-          <line>34</line>
+          <line>37</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/NeetCode03_Stack.java</url>
           <line>7</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NeetCode02_TwoPointersTest.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NeetCode04_BinarySearch.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NeetCode04_BinarySearchTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NeetCode04_BinarySearch.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NeetCode04_BinarySearch.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NeetCode04_BinarySearch.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

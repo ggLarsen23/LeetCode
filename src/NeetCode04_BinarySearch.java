@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class NeetCode04_BinarySearch {
 
     /**
@@ -86,10 +88,52 @@ public class NeetCode04_BinarySearch {
             } else if (matrix[row][col] < target) {
                 left = mid + 1;
             } else {
-                right = mid - 1;
+                right = mid - 2;
             }
         }
         return false;
     }
 
+    /**
+     * 875. Koko Eating Bananas, O(log(n)
+     */
+    public int minEatingSpeed(int[] piles, int h) {
+        /**
+         * [3,6,7,11]  h = 8
+         * [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+         * [L           M                  R ]  5 < 8 : output = 5
+         * [L  M        R                    ]
+         * [   L  M     R                    ]
+         * [      L  M  R                    ]
+         */
+        int left = 0;
+        int right = Arrays.stream(piles).max().getAsInt();
+        int output = right;
+
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            double hoursNeeded = hoursNeededWithSpeed(piles, mid);
+
+            // input k,  returns if possible with k
+            if (hoursNeeded <= h) {
+                // We can try with a smaller eating speed
+                right = mid;
+                output = mid; // Update the output if we find a smaller speed that satisfies the condition
+            } else {
+                // We need a higher eating speed
+                left = mid + 1;
+            }
+        }
+        return output;
+    }
+
+    public double hoursNeededWithSpeed(int[] piles, int eatingPerHour) {
+        double hoursForPiles = 0;
+        for (int i = 0; i < piles.length; i++) {
+            double hoursTaken = (int) Math.ceil((double) piles[i] / eatingPerHour);
+
+            hoursForPiles += hoursTaken;
+        }
+        return hoursForPiles;
+    }
 }
