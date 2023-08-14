@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f48a36f-e699-4809-8dbf-ed7f22e38166" name="Changes" comment="//">
+    <list default="true" id="4f48a36f-e699-4809-8dbf-ed7f22e38166" name="Changes" comment="// Added 876 Koko Eating Bananas, BinarySearch">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/src/LeetCode.Main.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NeetCode01_ArraysAndHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeetCode01_ArraysAndHashing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NeetCode01_ArraysAndHashingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeetCode01_ArraysAndHashingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NeetCode04_BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeetCode04_BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NeetCode04_BinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeetCode04_BinarySearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,8 +90,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -123,11 +125,11 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;13&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/av_la/Documents/GitHub/AssemblyAPIProject&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/av_la/Documents/GitHub/SellPlacer&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
@@ -225,6 +227,14 @@
       <option name="presentableId" value="Default" />
       <updated>1679402709937</updated>
     </task>
+    <task id="LOCAL-00001" summary="// Added 876 Koko Eating Bananas, BinarySearch">
+      <created>1688551570981</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688551570981</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,7 +250,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="//" />
-    <option name="LAST_COMMIT_MESSAGE" value="//" />
+    <MESSAGE value="// Added 876 Koko Eating Bananas, BinarySearch" />
+    <option name="LAST_COMMIT_MESSAGE" value="// Added 876 Koko Eating Bananas, BinarySearch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

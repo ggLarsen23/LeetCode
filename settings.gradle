@@ -1,3 +1,5 @@
 include 'src'
 findProject(':src')?.name = 'Main'
+include 'src:TypeScriptSolutions'
+findProject(':src:TypeScriptSolutions')?.name = 'TypeScriptSolutions'
 
