@@ -136,4 +136,32 @@ public class NeetCode04_BinarySearch {
         }
         return hoursForPiles;
     }
+
+    /**
+     * 153. Find Minimum in Rotated Sorted Array
+     */
+    public int findMin(int[] nums) {
+
+        /**
+         * [4,5,6,7,0,1,2]
+         * 7,2
+         * 0,1,2
+         * 1,2
+         * 0,1
+         * 0
+         */
+        int left = 0;
+        int right = nums.length - 1;
+        while (left < right) {
+            int mid = ((left + right) / 2);
+            if (nums[right] < nums[mid]) {
+                left = mid + 1;
+            } else {
+                right = mid;
+            }
+        }
+        return nums[right];
+
+    }
+
 }
